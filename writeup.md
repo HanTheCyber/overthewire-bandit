@@ -48,6 +48,9 @@ cat ./-
 PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
 ```
 
+Nếu chỉ gõ `cat -`, Linux sẽ hiểu dấu `-` là đọc từ đầu vào tiêu chuẩn (stdin) chứ không phải tên file. Nêu dùng ./- để chỉ định rõ đường dẫn tương đối đến file `-` trong thư mục hiện tại.
+
+
 
 
 
