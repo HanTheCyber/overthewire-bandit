@@ -56,7 +56,8 @@ Nếu chỉ gõ `cat -`, Linux sẽ hiểu dấu `-` là đọc từ đầu vào
 ## Level 2 -> Level 3
 1. ls -> --spaces in this filename--
 2. cat ./"--spaces in this filename--"
-3. Tìm được mật khẩu: 7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME
+3. Tìm được mật khẩu:
+4.  ```bash 7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME```
 
 
 
