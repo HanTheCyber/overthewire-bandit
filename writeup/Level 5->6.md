@@ -1,8 +1,8 @@
 # Goal
-The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
-    human-readable
-    1033 bytes in size
-    not executable
+The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:  
+human-readable  
+1033 bytes in size  
+not executable
 
 # Các bước thực hiện
 1. Đăng nhập vào bandit5
@@ -29,11 +29,11 @@ pXa26xhMWaC2SvDotA4r9EgZkulOeSBW
 # Về `find`  
 Lệnh find trong Linux/Unix dùng để tìm kiếm tệp (files) và thư mục (directories) theo các tiêu chí cụ thể dựa trên cấu trúc cây thư mục.
 ## 1. Công dụng chính
-Tìm theo tên: Tìm tệp/thư mục có tên chính xác hoặc chứa từ khóa.
-Tìm theo kích thước: Lọc tệp có dung lượng nhỏ hơn, lớn hơn hoặc đúng bằng một số byte/KB/MB cụ thể.
-Tìm theo loại (type): Phân loại chỉ tìm tệp thường (f), thư mục (d), hay liên kết (l).
-Tìm theo quyền (permissions): Tìm các tệp có quyền đọc, ghi, hoặc thực thi nhất định (-readable, -executable, -perm).
-Tìm theo thời gian: Tìm tệp được tạo, sửa đổi hoặc truy cập trong khoảng thời gian nhất định (-mtime, -atime).
+Tìm theo tên: Tìm tệp/thư mục có tên chính xác hoặc chứa từ khóa.  
+Tìm theo kích thước: Lọc tệp có dung lượng nhỏ hơn, lớn hơn hoặc đúng bằng một số byte/KB/MB cụ thể.  
+Tìm theo loại (type): Phân loại chỉ tìm tệp thường (f), thư mục (d), hay liên kết (l).  
+Tìm theo quyền (permissions): Tìm các tệp có quyền đọc, ghi, hoặc thực thi nhất định (-readable, -executable, -perm).  
+Tìm theo thời gian: Tìm tệp được tạo, sửa đổi hoặc truy cập trong khoảng thời gian nhất định (-mtime, -atime).  
 Thực thi lệnh trực tiếp: Tự động thực hiện một hành động (như xóa, di chuyển, đổi tên) lên các tệp vừa tìm thấy thông qua tham số -exec.
 ## 2. Cú pháp cơ bản
 ```bash
