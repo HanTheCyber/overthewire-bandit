@@ -14,6 +14,11 @@ owned by group bandit6
    find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
    ```
 
+`2`: Đại diện cho luồng đầu ra lỗi tiêu chuẩn (Standard Error / stderr).  
+`>`: Điều hướng dữ liệu.   
+`/dev/null`: Một "hố đen" của Linux — bất kỳ dữ liệu nào gửi vào đây đều sẽ bị xóa bỏ.  
+`2>/dev/null`: Nghĩa là "Tất cả các dòng báo lỗi hãy vứt vào hố đen, chỉ hiển thị kết quả đúng ra màn hình".
+
 Kết quả: /var/lib/dpkg/info/bandit7.password  
 
 3. `cat /var/lib/dpkg/info/bandit7.password`  
@@ -21,3 +26,5 @@ Kết quả: /var/lib/dpkg/info/bandit7.password
 ```bash
 Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3
 ```
+
+
