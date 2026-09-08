@@ -8,6 +8,10 @@ The password for the next level is stored in the file data.txt and is the only l
    ```bash
    sort data.txt | uniq -u
    ```
+-> Tìm thấy mật khẩu:
+```bash
+EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl
+```
 
 **sort data.txt:** Sắp xếp các dòng trong tệp theo thứ tự bảng chữ cái. Bước này bắt buộc vì lệnh `uniq` chỉ so sánh được các dòng đứng liền kề nhau
 **| (Pipe):** Truyền dữ liệu đã được sắp xếp từ lệnh `sort` sang làm đầu vào cho lệnh `uniq`
