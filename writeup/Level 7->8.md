@@ -25,3 +25,19 @@ grep [tùy_chọn] "mẫu_tìm_kiếm" [tệp_ tin]
 2. Khớp mô hình (Pattern Matching): với mỗi dòng đọc được, trình biểu thức chính quy (Regex Engine) của grep sẽ kiểm tra xem chuỗi mẫu có xuất hiện trong dòng đó hay không
 3. In kết quả: Nếu tìm thấy kết quả khớp, grep sẽ chuyển toàn bộ dòng chứa chuỗi đó ra đầu ra chuẩn (Standard Output - stdout) để hiển thị lên màn hình. Dòng không chứa chuỗi khớp sẽ bị bỏ qua
 
+**Các tùy chọn (Flags) phổ biến**
+`-i` (--ignore-case): Bỏ qua phân biệt chữ hoa và chữ thường
+
+`-v` (--invert-match): Đảo ngược kết quả, in ra những dòng không chứa chuỗi tìm kiếm
+
+`-n` (--line-number): Hiển thị số thứ tự dòng chứa kết quả
+
+`-r` hoặc `-R` (--recursive): Tìm kiếm đệ quy trong tất cả các tệp thuộc thư viện hiện tại và các thư mục con
+
+`-c` (--count): Chỉ đếm số dòng khớp chứ không in ra nội dung dòng
+
+`-w` (--word-regexp): Tìm chính xác theo từ nguyên vẹn (ví dụ: tìm "is" sẽ không khớp với "this" hay "island")
+
+`E` (--extended-regexp): Sử dụng biếu thức chính quy mở rộng (ERE), cho phép dùng các toán tử phức tạp như |,+,? mà không cần dùng ký tự thoát \.
+
+
