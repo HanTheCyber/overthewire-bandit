@@ -1,1 +1,1 @@
-Ngọc Hân xin đẹp
+Ngọc Hân xinh đẹp
