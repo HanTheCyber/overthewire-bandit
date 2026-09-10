@@ -1,1 +1,0 @@
-Ngọc Hân xinh đẹp
