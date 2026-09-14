@@ -16,7 +16,7 @@ The password for the next level is stored in the file data.txt, which contains b
    ```
    -> Tìm thấy mật khẩu:
    ```bash
-
+   pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro
    ```
 
 # Lệnh `base64`
