@@ -8,7 +8,7 @@ To retrieve the password, we need to revert the hexdump back to binary format, i
 # Key Linux Concepts & Tools Used
 
 1. **`xxd -r` (Reverse Hexdump):**
-Converts a text file containing hexadecimal values back into a raw binary file.
+In Linux, the `xxd` program is used to both create hex dump files as convert those hex dump files back into their original forrmats. Converts a text file containing hexadecimal values back into a raw binary file.
 2. **`mkdir` (short for "make directory"):**
 Is a command used to create new folders in an operating system.
 3. **`file` (Determine File Type):**
@@ -35,6 +35,8 @@ cp ~/data.txt .
 ```
 
 ## Step 2: Revert the Hexdump
+
+<img width="799" height="534" alt="Screenshot from 2026-09-24 13-29-56" src="https://github.com/user-attachments/assets/d8e54a9e-c82f-4d6b-b0d4-e698be32c0d7" />
 
 The file `data.txt` contains text representation of hex values. We convert it back to a binary file named `data` using `xxd -r`:
 
