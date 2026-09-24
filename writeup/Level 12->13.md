@@ -1,20 +1,24 @@
-#Goal
+# Goal
 
 The password for the next level is stored in the file data.txt, which is a hexdump of a file that has been repeatedly compressed. For this level it may be useful to create a directory under /tmp in which you can work. Use mkdir with a hard to guess directory name. Or better, use the command “mktemp -d”. Then copy the datafile using cp, and rename it using mv (read the manpages!)
 
 To retrieve the password, we need to revert the hexdump back to binary format, identify the compression format layer-by-layer, rename the file appropriately, and decompress it step-by-step until we reach plain text.
 
 
-#Key Linux Concepts & Tools Used
+# Key Linux Concepts & Tools Used
 
 1. **`xxd -r` (Reverse Hexdump):**
 Converts a text file containing hexadecimal values back into a raw binary file.
-2. **`file` (Determine File Type):**
+2. **`mkdir` (short for "make directory"):**
+Is a command used to create new folders in an operating system.
+3. **`file` (Determine File Type):**
 Reads the file's header (Magic Bytes) to determine its actual file type, regardless of its extension.
-3. **`mv` (Move / Rename):**
+4. **`mv` (Move / Rename):**
 Renames files so that decompression tools like `gzip` recognize them.
-4. **`gzip -d` / `bzip2 -d` / `tar -xf`:**
+5. **`gzip -d` / `bzip2 -d` / `tar -xf`:**
 Decompression utilities for `.gz`, `.bz2`, and `.tar` archives, respectively.
+6. **`mktemp -d`:**
+Is a command used to create a uniquely named temporary directory with secure permissions to prevent file conflicts and unauthorized access.
 
 
 # Step-by-Step Solution
